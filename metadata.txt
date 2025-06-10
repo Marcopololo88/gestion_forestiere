@@ -1,0 +1,32 @@
+[general]
+name=Gestion parcelles forestières
+email=marc.grosjean@wanadoo.fr
+author=Marc GROSJEAN
+qgisMinimumVersion=3.0
+description=Gestion de parcelles forestières, travaux, traitements, type essences arbres.
+    Ce plugin permet la gestion complète de vos parcelles.
+about=Ce plugin vous permet de gérer vos parcelles forestières, le type d'essences, 
+    les travaux et traitements faits ou en prévision, les coordonnées de vos voisins 
+    et une analyse statistique simple de vos parcelles. Un code couleur évolutif 
+    permet de différencier le type de plantations. Une configuration est nécessaire 
+    pour créer les champs et les codes couleurs dans votre table attributaire 
+    nécessaires au fonctionnement du plugin. Pour que celui-ci fonctionne il faut 
+    tout d'abord installer une couche cadastrale au format Geopackage et s'assurer 
+    qu'elle comporte bien les champs : id, section, numero et contenance.
+version=1.0
+tracker=https://github.com/Marcopololo88/gestion_forestiere/issues
+repository=https://github.com/Marcopololo88/gestion_forestiere
+homepage=https://github.com/Marcopololo88/gestion_forestiere
+
+category=Vector
+tags=parcelles, forêt, gestion, plugin, forestière, cadastre
+icon=icons/icon.png
+experimental=False
+deprecated=False
+server=False
+hasProcessingProvider=no
+
+changelog=1.0 - Première version stable
+
+
+

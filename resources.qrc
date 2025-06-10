@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/gestion_forestiere" >
+        <file>iconsp.png</file>
+    </qresource>
+</RCC>

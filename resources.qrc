@@ -1,5 +1,6 @@
 <RCC>
-    <qresource prefix="/plugins/gestion_forestiere" >
+    <qresource prefix="/plugins/gestion_forestiere">
         <file>iconsp.png</file>
+        <file>icons/info.png</file>
     </qresource>
 </RCC>

@@ -429,7 +429,8 @@ class CoordClick:
             #Remplir le combo Modif légende A vérifier si utile
             self.remplir_combo_modif_legend()
 
-
+        # Connexion du bouton About
+            self.dlg.toolButtonAbout.clicked.connect(self.show_about)
 
             # Charger les données CSV dans la table au démarrage
             load_table_from_csv(self.dlg.tableWidgetData, self.csv_path)
@@ -559,6 +560,16 @@ class CoordClick:
 
         # Appel de la boîte de dialogue
         self.infos_polygon_manager.dlg.show()
+
+    def show_about(self):
+        QMessageBox.about(
+            self.dlg,
+            "À propos du plugin",
+            "🌲 <b>Gestion forestière</b> v1.01<br>"
+            "© 2025 Marc GROSJEAN<br><br>"
+            "Plugin développé pour QGIS.<br>"
+            "Tous droits réservés."
+        )
 
     # Gestion des cases à cocher de l'export dans l'onglet Analyses
     def init_export_connections(self):
